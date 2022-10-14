@@ -29,3 +29,4 @@ var compañeros = {
     direccion: "Calle falsa 456"
     };
     
+console.log(`Mi nombre completo es es ${nombre} ${apellido}, tengo ${edad}. Nací un ${fechaDeNacimiento}, actualmente vivo en ${direccion}, mi color favorito es el ${colorFavorito}, mi comida favorita es ${comidaFavorita}, estoy soltero ${soltero}, mi musica favorita es ${musicaFavorita}, mi pelicula favorita es ${peliculaFavorito}, y mis compañeros son ${compañeros.nombre} ${compañeros.apellido}, tiene ${compañeros.edad} años, nació un ${compañeros.fechaDeNacimiento}, vive en ${compañeros.direccion}, y tiene ${compañeros.mascotas[0].nombre} y ${compañeros.mascotas[1].nombre} como mascotas.`);
